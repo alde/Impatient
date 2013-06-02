@@ -1,0 +1,7 @@
+## Interface: 50300
+## Title: Impatient
+## Notes: Automate gossip/quest/reputation skipping/completion/handins
+## SavedVariables: Impatient_List, Impatient_Accept
+## Author: Rickard Dybeck
+
+Impatient.lua
