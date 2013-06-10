@@ -19,15 +19,6 @@ local L = {
 }
 
 ----
--- Impatient_List = Auto skip/turnin
-local Impatient_List = {}
-
-----
--- Impatient_Accept = Auto accept
-local Impatient_Accept = {}
-
-
-----
 -- Try to sanitize strings from extra text that other addons usually add
 --
 -- params:
@@ -481,6 +472,7 @@ end
 -- return:
 -- nil 				No return value
 function Impatient:Start()
+
 	Impatient_List = Impatient_List or {}
 	Impatient_Accept = Impatient_Accept or {}
 
